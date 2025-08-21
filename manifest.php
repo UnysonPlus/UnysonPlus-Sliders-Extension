@@ -3,18 +3,34 @@
 $manifest = array();
 
 $manifest['name']        = __( 'Sliders', 'fw' );
-$manifest['description'] = __( "Adds the Sliders extension to your website. You'll be able to create different built in jQuery sliders for your homepage and all the other website pages.", 'fw' );
-$manifest['version'] = '1.1.19';
-$manifest['github_repo'] = 'https://github.com/ThemeFuse/Unyson-Sliders-Extension';
-$manifest['uri'] = 'http://manual.unyson.io/en/latest/extension/slider/index.html#content';
-$manifest['author'] = 'ThemeFuse';
-$manifest['author_uri'] = 'http://themefuse.com/';
-$manifest['display'] = true;
-$manifest['standalone'] = true;
+$manifest['slug']        = 'unysonplus-sliders';
+$manifest['description'] = __( 
+	"Adds the Sliders extension to your website. You'll be able to create different built in jQuery sliders for your homepage and all the other website pages.",
+	'fw' 
+);
+
+$manifest['version']     = '1.1.19';
+$manifest['display']     = true;
+$manifest['standalone']  = true;
+
+// Requirements
 $manifest['requirements'] = array(
 	'extensions' => array(
 		'population-method' => array(),
 	)
 );
 
-$manifest['github_update'] = 'ThemeFuse/Unyson-Sliders-Extension';
+// Repository Info
+$manifest['github_update'] = 'UnysonPlus/UnysonPlus-Sliders-Extension';
+$manifest['github_repo']   = 'https://github.com/UnysonPlus/UnysonPlus-Sliders-Extension';
+$manifest['github_branch'] = 'master';
+
+// Author Info
+$manifest['author']     = 'UnysonPlus';
+$manifest['author_uri'] = 'https://www.lastimosa.com.ph/unysonplus';
+
+// Meta
+$manifest['license']      = 'GPL-2.0-or-later';
+$manifest['text_domain']  = 'fw';
+$manifest['requires_php'] = '7.4';
+$manifest['requires_wp']  = '5.8';
