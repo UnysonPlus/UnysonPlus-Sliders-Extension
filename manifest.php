@@ -3,11 +3,7 @@
 $manifest = array();
 
 $manifest['name']        = __( 'Sliders', 'fw' );
-$manifest['slug']        = 'unysonplus-sliders';
-$manifest['description'] = __( 
-	"Adds the Sliders extension to your website. You'll be able to create different built in jQuery sliders for your homepage and all the other website pages.",
-	'fw' 
-);
+$manifest['description'] = __( "Adds the Sliders extension to your website. You'll be able to create different built in jQuery sliders for your homepage and all the other website pages.",	'fw' );
 
 $manifest['version']     = '1.1.20';
 $manifest['display']     = true;
@@ -23,7 +19,6 @@ $manifest['requirements'] = array(
 // Repository Info
 $manifest['github_update'] = 'UnysonPlus/UnysonPlus-Sliders-Extension';
 $manifest['github_repo']   = 'https://github.com/UnysonPlus/UnysonPlus-Sliders-Extension';
-$manifest['github_branch'] = 'master';
 
 // Author Info
 $manifest['author']     = 'UnysonPlus';
